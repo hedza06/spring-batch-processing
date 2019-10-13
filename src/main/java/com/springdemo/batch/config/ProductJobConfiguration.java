@@ -80,7 +80,7 @@ public class ProductJobConfiguration {
     {
         FlatFileItemReader<ProductCSVMapper> reader = new FlatFileItemReader<>();
         reader.setResource(new ClassPathResource("products.csv"));
-        reader.setLinesToSkip(1);
+        reader.setLinesToSkip(1); // skip file headers
         reader.setLineMapper(new DefaultLineMapper<ProductCSVMapper>() {{
             setLineTokenizer(new DelimitedLineTokenizer() {{
                 setNames("name", "description", "productType", "isMain", "createdAt");
