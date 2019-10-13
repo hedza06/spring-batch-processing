@@ -3,7 +3,7 @@ Spring Batch is a lightweight framework designed to enable robust batch processi
 It provides advanced features that support high performance batch jobs.
 
 Here is the flow of batch processing:  
-![alt text](add link here)
+![alt text](https://github.com/hedza06/spring-batch-processing/blob/master/src/main/resources/spring-batch-diagram.png)
 
 ## Integration with Spring Boot
 Integration with Spring Boot framework is very intuitive. You just need to add
@@ -32,7 +32,7 @@ Spring batch comes with initial schema which contains 6 tables:
 - BATCH_STEP_EXECUTION_CONTEXT
 
 ### ER Diagram of batch schema
-![alt text](add link here)
+![alt text](https://github.com/hedza06/spring-batch-processing/blob/master/src/main/resources/batch-db-schema.png)
 
 ### BATCH_JOB_EXECUTION
 The BATCH_JOB_EXECUTION table holds all information relevant to the JobExecution object. 
